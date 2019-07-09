@@ -17,5 +17,6 @@
         priority: "{{ priority}}"
         short_description: "This ticket was created by Zabbix"
     register: new_incident
+    delegate_to: 127.0.0.1
 
   - debug: var=new_incident.record.number
