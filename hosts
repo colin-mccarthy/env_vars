@@ -1,3 +1,6 @@
+[all]
+localhost
+
 [ios]
 192.168.161.9  ansible_host=192.168.161.9  
 

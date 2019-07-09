@@ -1,8 +1,8 @@
 ---
 - name: create ticket with notes
-  hosts: ios
+  hosts: localhost
   gather_facts: no
-  connection: network_cli
+  connection: local
 
   tasks:
   - name: include vars
