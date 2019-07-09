@@ -1,0 +1,14 @@
+#snow_record variables
+
+#custom credential in Tower
+# SN_USERNAME: 
+# SN_PASSWORD: 
+# SN_INSTANCE: 
+
+state: present
+
+#data variables
+
+severity: 2
+priority: 2
+category: network
