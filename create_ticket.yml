@@ -1,8 +1,8 @@
 ---
 - name: create ticket with notes
-  hosts: 192.168.161.9
+  hosts: 127.0.0.1
   gather_facts: no
-  connection: network_cli
+  connection: local
 
   tasks:
   - name: include vars
